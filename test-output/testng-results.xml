@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="43740" started-at="2021-01-09T13:58:45Z" finished-at="2021-01-09T13:59:29Z">
+    <groups>
+    </groups>
+    <test name="AppiumTestsRealDevice" duration-ms="26385" started-at="2021-01-09T13:58:45Z" finished-at="2021-01-09T13:59:12Z">
+      <class name="appiumScripts.SwipeTest">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:appiumScripts.SwipeTest@17c8ad9]" name="setup" duration-ms="26313" started-at="2021-01-09T13:58:45Z" finished-at="2021-01-09T13:59:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[443418ec]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8.1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://127.0.0.1:4733/wd/hub]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+      </class> <!-- appiumScripts.SwipeTest -->
+    </test> <!-- AppiumTestsRealDevice -->
+    <test name="AppiumTestsEmulator1" duration-ms="43740" started-at="2021-01-09T13:58:45Z" finished-at="2021-01-09T13:59:29Z">
+      <class name="appiumScripts.HostelWorldTest">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:appiumScripts.HostelWorldTest@1740a0f]" name="setup" duration-ms="43675" started-at="2021-01-09T13:58:45Z" finished-at="2021-01-09T13:59:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SonalDec]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://127.0.0.1:4723/wd/hub]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+      </class> <!-- appiumScripts.HostelWorldTest -->
+    </test> <!-- AppiumTestsEmulator1 -->
+  </suite> <!-- Suite1 -->
+</testng-results>

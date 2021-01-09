@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite1]" parallel="tests">
+  <test thread-count="2" name="AppiumTestsEmulator1(failed)" parallel="tests">
+    <parameter name="Version" value="6.0"/>
+    <parameter name="deviceName" value="SonalDec"/>
+    <parameter name="URL" value="http://127.0.0.1:4723/wd/hub"/>
+    <classes>
+      <class name="appiumScripts.HostelWorldTest">
+        <methods>
+          <include name="setup" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- appiumScripts.HostelWorldTest -->
+    </classes>
+  </test> <!-- AppiumTestsEmulator1(failed) -->
+  <test thread-count="2" name="AppiumTestsRealDevice(failed)" parallel="tests">
+    <parameter name="Version" value="8.1.0"/>
+    <parameter name="deviceName" value="443418ec"/>
+    <parameter name="URL" value="http://127.0.0.1:4733/wd/hub"/>
+    <classes>
+      <class name="appiumScripts.SwipeTest">
+        <methods>
+          <include name="setup" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- appiumScripts.SwipeTest -->
+    </classes>
+  </test> <!-- AppiumTestsRealDevice(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

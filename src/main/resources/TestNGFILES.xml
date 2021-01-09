@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="Suite1" verbose="1" parallel ="tests" thread-count="2" >
+ <test name="AppiumTestsEmulator1" >
+  <parameter name="deviceName" value="SonalDec"/>
+  <parameter name="Version" value="6.0"/>
+  <parameter name="URL" value="http://127.0.0.1:4723/wd/hub"/>
+
+    <classes>
+       <class name="appiumScripts.HostelWorldTest" />
+    </classes>
+  </test> 
+
+   <test name="AppiumTestsRealDevice" >
+  <parameter name="deviceName" value="443418ec"/>
+  <parameter name="Version" value="8.1.0"/>
+  <parameter name="URL" value="http://127.0.0.1:4733/wd/hub"/>
+    <classes>
+       <class name="appiumScripts.SwipeTest" />
+    </classes>
+  </test> 
+</suite>
