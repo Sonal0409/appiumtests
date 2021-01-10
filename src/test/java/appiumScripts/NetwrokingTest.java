@@ -3,13 +3,14 @@ package appiumScripts;
 import java.net.MalformedURLException;
 import java.net.URL;
 
+import org.openqa.selenium.ScreenOrientation;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 import io.appium.java_client.android.AndroidDriver;
 
 public class NetwrokingTest {
 
-	public static void main(String[] args) throws MalformedURLException {
+	public static void main(String[] args) throws MalformedURLException, InterruptedException {
 		// TODO Auto-generated method stub
 
 		
@@ -35,18 +36,18 @@ DesiredCapabilities	cap= new DesiredCapabilities();
 		
 		// inspect the notification using inpector and click on any notifaction.
 		
-	boolean ap=	driver.getConnection().isAirplaneModeEnabled();  // false
+	/*boolean ap=	driver.getConnection().isAirplaneModeEnabled();  // false
 		
 		System.out.println("airplane mode is " +ap);
 		
 		driver.toggleAirplaneMode();  // ON
 		
-		/*boolean wi=driver.getConnection().isWiFiEnabled();
+		boolean wi=driver.getConnection().isWiFiEnabled();
 		
 		if(wi==true)
 		{
 		driver.toggleWifi();
-		}*/
+		}
 		boolean wi1=driver.getConnection().isWiFiEnabled();
 		if(wi1==true)
 		{
@@ -58,6 +59,29 @@ DesiredCapabilities	cap= new DesiredCapabilities();
 boolean data=driver.getConnection().isDataEnabled();
 		
 		System.out.println(data);
+		*/
+		
+		driver.lockDevice();
+		
+		Thread.sleep(3000);
+		
+		driver.unlockDevice();
+		
+		
+		driver.rotate(ScreenOrientation.LANDSCAPE);
+		
+		Thread.sleep(2000);
+		
+		driver.rotate(ScreenOrientation.PORTRAIT);
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		

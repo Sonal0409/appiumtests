@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite1" duration-ms="43740" started-at="2021-01-09T13:58:45Z" finished-at="2021-01-09T13:59:29Z">
+  <suite name="Suite1" duration-ms="44731" started-at="2021-01-10T03:08:48Z" finished-at="2021-01-10T03:09:33Z">
     <groups>
     </groups>
-    <test name="AppiumTestsRealDevice" duration-ms="26385" started-at="2021-01-09T13:58:45Z" finished-at="2021-01-09T13:59:12Z">
+    <test name="AppiumTestsRealDevice" duration-ms="30429" started-at="2021-01-10T03:08:48Z" finished-at="2021-01-10T03:09:19Z">
       <class name="appiumScripts.SwipeTest">
-        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:appiumScripts.SwipeTest@17c8ad9]" name="setup" duration-ms="26313" started-at="2021-01-09T13:58:45Z" finished-at="2021-01-09T13:59:12Z">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:appiumScripts.SwipeTest@17c8ad9]" name="setup" duration-ms="30354" started-at="2021-01-10T03:08:48Z" finished-at="2021-01-10T03:09:19Z">
           <params>
             <param index="0">
               <value>
@@ -30,9 +30,9 @@
         </test-method> <!-- setup -->
       </class> <!-- appiumScripts.SwipeTest -->
     </test> <!-- AppiumTestsRealDevice -->
-    <test name="AppiumTestsEmulator1" duration-ms="43740" started-at="2021-01-09T13:58:45Z" finished-at="2021-01-09T13:59:29Z">
+    <test name="AppiumTestsEmulator1" duration-ms="44731" started-at="2021-01-10T03:08:48Z" finished-at="2021-01-10T03:09:33Z">
       <class name="appiumScripts.HostelWorldTest">
-        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:appiumScripts.HostelWorldTest@1740a0f]" name="setup" duration-ms="43675" started-at="2021-01-09T13:58:45Z" finished-at="2021-01-09T13:59:29Z">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:appiumScripts.HostelWorldTest@1740a0f]" name="setup" duration-ms="44660" started-at="2021-01-10T03:08:48Z" finished-at="2021-01-10T03:09:33Z">
           <params>
             <param index="0">
               <value>

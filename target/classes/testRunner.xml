@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="testCycle1" parallel="classes" thread-count="3" verbose="1" >
+  <test name="IntegreationTest" >
+    <parameter name="deviceName" value="SonalDec"/>
+  <parameter name="Version" value="6.0"/>
+  <parameter name="URL" value="http://127.0.0.1:4723/wd/hub"/>
+   
+    <classes>
+       <class name="appiumScripts.SetupCheck"/>
+       <class name="appiumScripts.HostelWorldTest" />
+    
+    </classes>
+  </test>
+ 
+  <test name="RegressionTest">
+    <parameter name="deviceName" value="443418ec"/>
+  <parameter name="Version" value="8.1.0"/>
+  <parameter name="URL" value="http://127.0.0.1:4733/wd/hub"/>
+    <classes>
+      <class name="appiumScripts.SetupCheck"/>
+      <class name="appiumScripts.RealDeviceTest"/>
+         <class name="appiumScripts.NetworkingTest" />
+    </classes>
+  </test>
+</suite>
